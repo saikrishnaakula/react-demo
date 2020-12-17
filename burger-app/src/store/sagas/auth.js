@@ -17,9 +17,9 @@ export function* checkAuthTimeOut(action) {
 
 export function* authSaga(action) {
   yield put(authStart());
-  let url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCQWlgfxFguMy1LkERfn4UMZGEYuSygzVg`;
+  let url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=`;
   if (action.method) {
-    url = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCQWlgfxFguMy1LkERfn4UMZGEYuSygzVg`;
+    url = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?k`;
   }
   try {
     const resp = yield Axios.post(url, {
