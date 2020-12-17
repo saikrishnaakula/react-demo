@@ -1,0 +1,28 @@
+.red {
+    color: red;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .btn-new {
+    background-color: red;
+  }
+  
+  .btn-new:hover {
+    background-color: black;
+    color: white;
+  }
+  

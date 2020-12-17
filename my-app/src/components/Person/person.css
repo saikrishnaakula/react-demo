@@ -1,0 +1,11 @@
+.person {
+  padding: 2rem;
+  border: 1px solid black;
+  width: 200px;
+  margin: 1rem;
+}
+@media (min-width: 400px) {
+  .person {
+    background-color: #ebedef;
+  }
+}

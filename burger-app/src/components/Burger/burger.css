@@ -1,0 +1,17 @@
+.burger {
+    width: 250px;
+    margin: auto;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+/* @media (min-width: 1000px) {
+    .burger {
+        height: 700px;
+        width: 600px;
+    } 
+} */
